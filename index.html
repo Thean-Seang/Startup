@@ -4,9 +4,15 @@
 <title>VETOR</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/w3.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<style>
+  @import url("https://fonts.googleapis.com/css?family=Raleway");
+  /* Fallback for Raleway font */
+  body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", "Segoe UI", Arial, sans-serif;
+  }
+</style>
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
@@ -19,7 +25,7 @@ body, html {
 .bgimg-1 {
   background-position: center;
   background-size: cover;
-  background-image: url("/img/main.jpg");
+  background-image: url("img/main.jpg");
   min-height: 100%;
 }
 
@@ -91,7 +97,7 @@ body, html {
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-card" id="myNavbar">
-    <a id="logo" href="#home" class="w3-bar-item w3-button w3-wide"><img src="/img/logo.png" height="70px"></a>
+    <a id="logo" href="#home" class="w3-bar-item w3-button w3-wide"><img src="img/logo.png" height="70px"></a>
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
       <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
@@ -178,7 +184,7 @@ body, html {
       <p><a href="#product" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Products</a></p>
     </div>
     <div class="w3-col m6">
-      <img class="w3-image w3-round-large" src="/img/bg2.png" alt="Buildings" width="700" height="394">
+      <img class="w3-image w3-round-large" src="img/bg2.png" alt="Buildings" width="700" height="394">
     </div>
   </div>
 </div>
@@ -190,7 +196,7 @@ body, html {
   <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card">
-        <img src="/img/Defense.jpg" alt="John" style="width:100%">
+        <img src="img/Defense.jpg" alt="John" style="width:100%">
         <div class="w3-container">
           <h3>DEFENSE</h3>
           <p class="w3-opacity">Main Function</p>
@@ -203,7 +209,7 @@ body, html {
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card">
-        <img src="/img/Root.jpg" alt="Jane" style="width:100%">
+        <img src="img/Root.jpg" alt="Jane" style="width:100%">
         <div class="w3-container">
           <h3>ROOT</h3>
           <p class="w3-opacity">Main Function</p>
@@ -215,7 +221,7 @@ body, html {
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card">
-        <img src="/img/Bloom.jpg" alt="Mike" style="width:100%">
+        <img src="img/Bloom.jpg" alt="Mike" style="width:100%">
         <div class="w3-container">
           <h3>BLOOM</h3>
           <p class="w3-opacity">Main Function</p>
@@ -228,7 +234,7 @@ body, html {
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card">
-        <img src="/img/Fruit.jpg" alt="Dan" style="width:100%">
+        <img src="img/Fruit.jpg" alt="Dan" style="width:100%">
         <div class="w3-container">
           <h3>FRUIT</h3>
           <p class="w3-opacity">Main Function</p>
@@ -269,31 +275,31 @@ body, html {
 
   <div class="w3-row-padding" style="margin-top:64px">
     <div class="w3-col l3 m6">
-      <img src="/img/durian.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A microphone">
+      <img src="img/durian.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A microphone">
     </div>
     <div class="w3-col l3 m6">
-      <img src="/img/mango.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A phone">
+      <img src="img/mango.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A phone">
     </div>
     <div class="w3-col l3 m6">
-      <img src="/img/cili.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A drone">
+      <img src="img/cili.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A drone">
     </div>
     <div class="w3-col l3 m6">
-      <img src="/img/eggplant.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Soundbox">
+      <img src="img/eggplant.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Soundbox">
     </div>
   </div>
 
   <div class="w3-row-padding w3-section">
     <div class="w3-col l3 m6">
-      <img src="/img/peria.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tablet">
+      <img src="img/peria.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tablet">
     </div>
     <div class="w3-col l3 m6">
-      <img src="/img/timun.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A camera">
+      <img src="img/timun.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A camera">
     </div>
     <div class="w3-col l3 m6">
-      <img src="/img/strawberry.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A typewriter">
+      <img src="img/strawberry.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A typewriter">
     </div>
     <div class="w3-col l3 m6">
-      <img src="/img/melon.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tableturner">
+      <img src="img/melon.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tableturner">
     </div>
   </div>
 </div>
@@ -434,7 +440,7 @@ body, html {
         class="whatsapp-float" 
         target="_blank" 
         aria-label="Chat on WhatsApp">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
+            <img src="img/whatsapp-icon.svg" 
                 alt="WhatsApp" 
                 class="whatsapp-icon">
     </a>
